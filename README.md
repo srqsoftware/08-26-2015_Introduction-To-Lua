@@ -12,3 +12,7 @@ This talk covers the basics of the Lua.
 Trevor will demonstrate how Lua's simplicity allows for quick development of small utility scripts. 
 I will also show how Lua's powerful meta-mechanisms allow for rapid development of software in prototypal OO, classical OO, and functional paradigms. 
 At the end of the talk I will integrate Lua into an existing application.
+
+##Lua Game
+
+##Integration With An Erlang Application
