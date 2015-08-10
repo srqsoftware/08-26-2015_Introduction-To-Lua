@@ -1,10 +1,13 @@
 -- comments start with two dashes
 --[[
     adding two square brackets
-    makes the comment multi-line
+    makes the comments multi-line
 --]]
 
+-- double and single quotes are treated the same
 string = 'some text in single quotes'
-
--- double quotes are treated the same as single quotes
-another_sting = "some text in double quotes"
+another_sting = "more text"
+multiline = [[
+    foo
+    bar
+    ]]
