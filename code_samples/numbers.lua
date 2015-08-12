@@ -1,10 +1,9 @@
-num = 42 -- all numbers are doubles.
--- Don't freak out, 64-bit doubles have 52 bits for storing exact int
--- -- values; machine precision is not a problem for ints that need < 52 bits.
+-- all numbers are doubles (double precision floating point values)
+-- Lua preserves exact integer values (52 bits are used to store the integer value)
+num = 42 
 
-float = 42.5
-half = 0.5
-baz = float - half 
-baz -- 42.0
-(num == (foo - bar)) -- true
-num2 = num / 7 -- 4.5714285714286
+num2 = num / 9 -- 4.6666666666667
+num3 = num / 7 -- 6.0
+num4 = num + 0.5
+num4 -- 42.5
+(6 == num3) -- true (6 == 6.0)
