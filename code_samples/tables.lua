@@ -23,4 +23,18 @@ array = {'a', 'b', 'c'}
 -- getting the length of array is easy
 length = #array --> 3
 
+-- iterating over tables is also trivial
+print_table = function (table)
+    for k, v in pairs(table) do
+        print('key:', k, 'value:', v)
+    end
+end
 
+print_table(user)
+--> key: name value: Roberto
+--> key: favorite_language value: Lua
+
+print_table(array)
+--> key: 1 value: a
+--> key: 2 value: b
+--> key: 3 value: c
