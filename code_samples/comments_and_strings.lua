@@ -4,9 +4,8 @@
     makes the comments multi-line
 --]]
 
--- double and single quotes are treated the same
-string = 'some text in single quotes'
-another_sting = "more text"
+string = 'single quotes strings'
+another_sting = "are the same as double quoted"
 multiline = [[
     foo
     bar
