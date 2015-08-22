@@ -9,7 +9,7 @@ user = {name = 'Roberto', favorite_language = 'Lua'}
 user2 = {name = 'Joe', favorite_language = 'Erlang'}
 
 -- but you can add your own functions to the table
-user2 = {name = 'Joe', favorite_language = 'Erlang', print_fun = print}
+user2.print_fun = print
 
 -- looking up the value of a string key is trivial:
 firstname = user2.name --> 'Joe'
