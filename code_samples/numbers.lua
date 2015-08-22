@@ -8,7 +8,7 @@ num = 42
 num3 = num / 7 --> 6.0
 equal = (6 == num3) --> true -- (6 == 6.0)
 
--- some can't
+-- some can't and will return floats
 num2 = num / 9 --> 4.6666666666667
 num4 = num + 0.5 --> 42.5
 
