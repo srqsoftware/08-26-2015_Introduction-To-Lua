@@ -10,3 +10,7 @@ multiline = [[
     foo
     bar
     ]]
+
+-- strings can be concatenated with `..` 
+both = 'one' .. ' two three' 
+print(both) --> 'one two three'
