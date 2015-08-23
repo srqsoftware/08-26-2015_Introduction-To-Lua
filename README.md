@@ -20,7 +20,7 @@ At the end of the talk I will integrate Lua into an existing application.
 Code samples from the slides are stored in `code_samples/`
 
 ##Integration With An Erlang Application
-The [http_cannon app is on GitHub](https://github.com/Stratus3D/http_cannon).
+The [http_cannon Erlang application is on GitHub](https://github.com/Stratus3D/http_cannon).
 
 ##Lua Game
-The incomplete [Lua Tetris game is available on GitHub](https://github.com/Stratus3D/lua_tetris)
+The incomplete [Lua Tetris game is on GitHub](https://github.com/Stratus3D/lua_tetris)
