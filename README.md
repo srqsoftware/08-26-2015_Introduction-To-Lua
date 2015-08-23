@@ -13,11 +13,14 @@ Trevor will demonstrate how Lua's simplicity allows for quick development of sma
 I will also show how Lua's powerful meta-mechanisms allow for rapid development of software in prototypal OO, classical OO, and functional paradigms. 
 At the end of the talk I will integrate Lua into an existing application.
 
+##Slides
+[Slides are available on Speaker Deck](https://speakerdeck.com/stratus3d/introduction-to-lua).
+
 ##Code Samples
 Code samples from the slides are stored in `code_samples/`
 
-##Lua Game
-
-
 ##Integration With An Erlang Application
-Code for the integration is stored in `erlang/`
+The [http_cannon app is on GitHub](https://github.com/Stratus3D/http_cannon).
+
+##Lua Game
+The incomplete [Lua Tetris game is available on GitHub](https://github.com/Stratus3D/lua_tetris)
